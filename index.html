@@ -108,4 +108,34 @@
         <li>Emorragia digestiva inferiore con necessità di trasfusioni</li>
         <li>Ulcera del retto superiore e sigma distale</li>
         <li>Massa tumorale/adenomegalica in retto e sigma</li>
-        <li>Gastrite cronica erosiva con metaplasia in
+        <li>Gastrite cronica erosiva con metaplasia intestinale</li>
+        <li>Litiasi vescicolare multipla</li>
+        <li>Disturbo cognitivo maggiore + depressione ansiosa</li>
+        <li>Aortosclerosi</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- Modal -->
+  <div id="imgModal" class="fixed inset-0 bg-black bg-opacity-80 hidden z-50 flex items-center justify-center">
+    <span class="absolute top-4 right-6 text-white text-3xl cursor-pointer" onclick="closeModal()">&times;</span>
+    <img id="modalImage" src="" class="max-h-[90%] max-w-[90%] rounded shadow-lg">
+  </div>
+
+  <script>
+    function openModal(src) {
+      document.getElementById('modalImage').src = src;
+      document.getElementById('imgModal').classList.remove('hidden');
+    }
+    function closeModal() {
+      document.getElementById('imgModal').classList.add('hidden');
+    }
+    // cerrar clicando en fondo
+    document.getElementById('imgModal').addEventListener('click', function(e) {
+      if (e.target.id === 'imgModal') closeModal();
+    });
+  </script>
+
+</body>
+</html>
