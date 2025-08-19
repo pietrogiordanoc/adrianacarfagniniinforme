@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informe Generale di Salute - Agosto 2025</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="max-w-5xl mx-auto p-6 bg-white shadow-lg rounded-lg my-6">
+    
+    <h1 class="text-3xl font-bold text-blue-700 mb-4">Informe Generale di Salute</h1>
+    <p class="text-sm text-gray-600 mb-6">Agosto 2025</p>
+
+    <!-- DATI PAZIENTE -->
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold border-b pb-2 mb-4">Dati del Paziente</h2>
+      <ul class="space-y-1">
+        <li><b>Nome:</b> Adriana Carfagnini</li>
+        <li><b>Data di nascita:</b> 17/01/1944 (81 anni)</li>
+        <li><b>CI:</b> 6.188.262</li>
+        <li><b>Condizioni note:</b> Ipertensione stadio II, Anemia microcitica cronica, Disturbo depressivo-ansioso, Disturbo cognitivo maggiore (demenza senile), Sindrome convulsiva in studio, Frattura anca destra (gestione ortopedica, non Qx, paziente in sedia a rotelle).</li>
+      </ul>
+    </section>
+
+    <!-- CONSULTAZIONE -->
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold border-b pb-2 mb-4">Consultazione Clinica</h2>
+      <p>La paziente è stata valutata per <b>emorragia digestiva inferiore</b> (ematochezia con coaguli, Hb: 7,2 g/dL) che ha richiesto trasfusione di tre unità di concentrato globulare. Attualmente con segni vitali stabili.</p>
+      <p class="mt-2">Raccomandato trattamento con <b>ferro orale, dieta, IBP</b> e <b>studi endoscopici (gastroscopia + colonscopia)</b> al più presto.</p>
+    </section>
+
+    <!-- STUDI -->
+    <section class="mb-6">
+      <h2 class="text-xl font-semibold border-b pb-2 mb-4">Studi Eseguiti</h2>
+      
+      <!-- Tumore / Adenomegalia -->
+      <div class="p-4 mb-4 border-l-4 border-red-600 bg-red-50">
+        <h3 class="font-semibold text-red-700">Massa tumorale / Adenomegalia</h3>
+        <p>Tumore o massa adenomegalica che occupa il retto superiore e parte del colon sigmoideo sinistro.</p>
+      </div>
+
+      <h3 class="font-semibold mt-4">Colonscopia</h3>
+      <ul class="list-disc ml-6">
+        <li>Ulcera del retto superiore + sigma distale</li>
+        <li>Indicazione: TAC addome-pelvi con e senza contrasto</li>
+      </ul>
+      <div class="my-4">
+        <img src="assets/colonoscopia.jpg" alt="Colonoscopia" class="rounded shadow max-h-80 mx-auto">
+        <p class="text-sm text-gray-500 mt-1 text-center">Figura 1: Colonoscopia</p>
+      </div>
+
+      <h3 class="font-semibold mt-4">Ecografia Addominale</h3>
+      <ul class="list-disc ml-6">
+        <li>Fegato normale</li>
+        <li>Litiasi vescicolare multipla</li>
+        <li>Aortosclerosi</li>
+      </ul>
+      <div class="my-4">
+        <img src="assets/ecografia.jpg" alt="Ecografia" class="rounded shadow max-h-80 mx-auto">
+        <p class="text-sm text-gray-500 mt-1 text-center">Figura 2: Ecografia addominale</p>
+      </div>
+
+      <h3 class="font-semibold mt-4">Biopsia gastrica</h3>
+      <ul class="list-disc ml-6">
+        <li>Gastrite cronica erosiva moderata</li>
+        <li>Metaplasia intestinale incompleta</li>
+        <li>Assenza di Helicobacter pylori</li>
+      </ul>
+      <div class="my-4">
+        <img src="assets/biopsia.jpg" alt="Biopsia" class="rounded shadow max-h-80 mx-auto">
+        <p class="text-sm text-gray-500 mt-1 text-center">Figura 3: Biopsia gastrica</p>
+      </div>
+
+      <h3 class="font-semibold mt-4">Esami di laboratorio</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border text-sm text-left">
+          <thead class="bg-gray-200">
+            <tr>
+              <th class="p-2 border">Data</th>
+              <th class="p-2 border">Emoglobina</th>
+              <th class="p-2 border">Ematocrito</th>
+              <th class="p-2 border">Globuli Rossi</th>
+              <th class="p-2 border">Globuli Bianchi</th>
+              <th class="p-2 border">Piastrine</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="p-2 border">21/05/2025</td>
+              <td class="p-2 border">9,4 g/dL</td>
+              <td class="p-2 border">29,0 %</td>
+              <td class="p-2 border">3,95 ×10⁶/µL</td>
+              <td class="p-2 border">10,9 ×10³/µL</td>
+              <td class="p-2 border">410 ×10³/µL</td>
+            </tr>
+            <tr>
+              <td class="p-2 border">23/05/2025</td>
+              <td class="p-2 border">7,8 g/dL</td>
+              <td class="p-2 border">23,4 %</td>
+              <td class="p-2 border">3,38 ×10⁶/µL</td>
+              <td class="p-2 border">4,8 ×10³/µL</td>
+              <td class="p-2 border">276 ×10³/µL</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SINTESI -->
+    <section>
+      <h2 class="text-xl font-semibold border-b pb-2 mb-4">Sintesi dei Reperti</h2>
+      <ul class="list-disc ml-6">
+        <li>Anemia microcitica ipocromica severa</li>
+        <li>Emorragia digestiva inferiore con necessità di trasfusioni</li>
+        <li>Ulcera del retto superiore e sigma distale</li>
+        <li>Massa tumorale/adenomegalica in retto e sigma</li>
+        <li>Gastrite cronica erosiva con metaplasia intestinale</li>
+        <li>Litiasi vescicolare multipla</li>
+        <li>Disturbo cognitivo maggiore + depressione ansiosa</li>
+        <li>Aortosclerosi</li>
+      </ul>
+    </section>
+
+  </div>
+</body>
+</html>
